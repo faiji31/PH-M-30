@@ -15,3 +15,20 @@ console.log(double)
 
 const num = numbers.map(x=> x*5 )
 console.log(num)
+
+// squre 
+
+const squre = numbers.map(x=>x*x)
+console.log(squre)
+
+
+// string mapping
+
+const friends =['jubu', 'mustaq', 'tasfiq', 'liam']
+
+const lenght = friends.map(x=> x.length)
+
+const firstletters = friends.map(x=> x[0])
+console.log(firstletters)
+console.log(lenght)
+
