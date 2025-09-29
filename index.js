@@ -3,4 +3,5 @@ const student ={
     marks:72
 }
 
-console.log(student)
+// console.log(student)
+const studentName = student.name
