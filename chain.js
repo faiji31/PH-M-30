@@ -3,11 +3,12 @@ const student ={
     district:{
         name1:'patuakhali',
         mother:{
-            name2:'lipi'
+            name2:'lipi',
+            age:55
         }
 
     },
     marks:72
 }
 
-console.log(student.district.mother.name2)
+console.log(student.district.mother.age)
